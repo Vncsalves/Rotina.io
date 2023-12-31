@@ -1,0 +1,28 @@
+:root{
+    --Preto: #1E1E1E;
+    --Preto_Segundario: #313131;
+    --Branco: #FBFBFB;
+    --Cinza_Fundo: #F2F1F1;
+    --Cinza_Letras: #B1AFAF;
+    --Azul: #1A46CF;
+    --Amarelo: #FFC300;
+    --Vermelho: #F82323;
+    --Roxo: #D600F9;
+}
+body{
+    background-color: var(--Cinza_Fundo);
+    padding: 0;
+    margin: 0;
+}
+#Div_Centralizar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Div_Login{
+    height: 50%;
+    width: 90%;
+    background-color: var(--Branco);
+}
