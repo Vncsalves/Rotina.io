@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 :root{
     --Preto: #1E1E1E;
     --Preto_Segundario: #313131;
@@ -14,6 +15,7 @@ body, html {
     background-color: var(--Cinza_Fundo);
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #Div_Centralizar {
@@ -25,14 +27,16 @@ body, html {
 }
 
 #Div_Login {
-    width: 95%;
+    width: 90%;
     height: 85%;
     background-color: var(--Branco);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    box-shadow: 0 0 5px 1px #00000341;
+    -webkit-box-shadow:0px 0px 14px 0px rgba(30, 30, 30, 0.445);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(30,30,30,0.445);
+    box-shadow: 0px 0px 14px 0px rgba(30, 30, 30, 0.445);
 }
 #Logo_Nome {
     width: 49%;
@@ -53,13 +57,143 @@ body, html {
     width: 60%;
     height: 60%;
 }
- hr {
-    border: 1px solid var(--Cinza_Letras);
-    border-radius: 20px;
-    transform: rotate(90deg);
-    size: 10;
-    width: 50%;
-}
+ #Escrita{
+    width: 20%;
+    height: 20%;
+    margin-top: 2vh;
+ }
 #Formulario_Login {
     width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Formulario_Login form{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+    margin-top: 0; 
+}
+#Titulo_Login {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10%;
+}
+#Titulo_Login h2{
+    font-size: 40px;
+}
+#Email{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#Email h2{
+    margin: 10px 0px 0px 15px ;
+    font-size: 20px;
+    font-style: normal;
+    align-items: center;
+}
+#Email input{
+    margin-left: 15px;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Cinza_Fundo);
+    outline: 0;
+}
+#Email input:focus, 
+#Email input:valid{
+    border: 2px solid var(--Amarelo);
+}
+#Senha{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+#Senha h2{
+    margin: 10px 0px 0px 15px ;
+    font-size: 20px;
+    font-style: normal;
+    align-items: center;
+}
+#Senha input{
+    margin-left: 15px;
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Cinza_Fundo);
+    outline: 0;
+}
+#Senha input:focus,
+#Senha input:valid{
+    border: 2px solid var(--Amarelo);
+}
+#Botao_Login{
+    width: 100%;
+    height: 20%;
+    margin-top: 40px;
+}
+#Botao_Login  button{
+    margin-left: 15px;
+    width: 91%;
+    height: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Azul);
+    color: var(--Branco);
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+#Cadastrar{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.Venha_Entre{
+width: 100%;
+height: 35%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Venha_Entre h3{
+    font-size: 13px;
+    font-family:'Poppins', sans-serif ;
+}
+#Buttom_Cadastrar{
+width: 100%;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px 0px 5px 0px;
+}
+#Buttom_Cadastrar button{
+    border-radius: 10px;
+    border-color: var(--Amarelo);
+    background-color: transparent;
+    color: var(--Preto);
+    width: 30%;
+    height: 100%;
+    font-size: 13px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: bold;
+}
+.Venha_Entre img{
+    width: 8%;
 }
