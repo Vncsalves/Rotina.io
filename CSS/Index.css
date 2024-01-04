@@ -201,6 +201,12 @@ margin: 5px 0px 5px 0px;
 .venha-entre img{
     width: 8%;
 }
+#entrar{
+    text-decoration: none;
+    color: var(--Branco);
+}
 a{
     text-decoration: none;
+    color: var(--Preto);
+    font-weight: bold;
 }
