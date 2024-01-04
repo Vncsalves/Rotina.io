@@ -159,13 +159,45 @@ height: 30%;
     color: var(--Branco);
     margin-left: 5px;
 }
-.parte-inferior-cards{
+#parte-inferior-cards-historico{
     width: 100%;
     height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.parte-inferior-cards img{
+#parte-inferior-cards-historico img{
 width: 50%;
 }
+#parte-inferior-cards-calendario{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parte-inferior-cards-calendario img{
+    width: 85%;
+}
+#parte-inferior-cards-foco{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parte-inferior-cards-foco img{
+    width: 85%;
+}
+#parte-inferior-cards-conquista{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parte-inferior-cards-conquista img{
+    width: 85%;
+}
+
+
