@@ -110,8 +110,62 @@ input:focus{
     height: 85%;
     margin-left: 40%;
 }
-#div-cards{
+#div-centralizar-cards{
     width: 100%;
-    height: 55%;
-    background-color: #1A46CF;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#div-cards{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#card-historico{
+   width: 15%;
+   height: 95%;
+   background-color: var(--Azul);
+   border-radius: 10px;
+}
+#card-calendario{
+    width: 15%;
+    height: 95%;
+    background-color: var(--Amarelo);
+    border-radius: 10px;
+}
+#card-foco{
+    width: 15%;
+    height: 95%;
+    background-color: var(--Vermelho);
+    border-radius: 10px;
+}
+#card-conquista{
+    width: 15%;
+    height: 95%;
+    background-color: var(--Roxo);
+    border-radius: 10px;
+}
+.parte-superior-cards{
+width: 100%;
+height: 30%;
+}
+.parte-superior-cards h1{
+    font-size: 17px;
+    color: var(--Branco);
+    margin-left: 5px;
+}
+.parte-inferior-cards{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parte-inferior-cards img{
+width: 50%;
 }
