@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
 :root{
     --Preto: #1E1E1E;
     --Preto_Segundario: #313131;
@@ -199,5 +204,141 @@ width: 50%;
 #parte-inferior-cards-conquista img{
     width: 85%;
 }
+#div-relatorio-do-dia{
+    width: 100%;
+    height: 55%;
+}
+#titulo-relatorio{
+    width: 100%;
+    height: 10%;
+}
+#titulo-relatorio h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#cards-relatorio{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divs-relatorios{
+    width: 35%;
+    height: 90%;
+    background-color: var(--Branco);
+    border-radius: 10px;
+    -webkit-box-shadow:0px 0px 14px 0px rgba(49,49,49,0.34);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+     box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+}
+#div-clima-superior{
+width: 100%;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#div-clima-inferior{
+    width: 100%;
+    height: 60%;
+}
+#img-clima{
+    width: 20%;
+    height: 100%;
+}
+#img-clima img{
+    width: 80%;
+    margin: 15px 0px 0px 15px;
+}
+#clima-escrita{
+ width: 68%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-right: 15%;
+}
+#temperatura{
+    font-size: 35px;
+}
+#sensacao{
+    font-size: 15px;
+    color: var(--Cinza_Letras);
+}
+#dia-semana{
+    font-size: 20px;
+}
+hr{
+    border-top: 1px solid var(--Cinza_Letras);
+}
+#div-clima-inferior{
+width: 100%;
+height: 60%;
+}
+.previsao-umidade{
+    width: 100%;
+    height: 50%;
+}
+#titulo-tempo{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#titulo-tempo-umidade{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.sub-titulo{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#div-palavra-superior{
+width: 100%;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#div-palavra-inferior{
+    width: 100%;
+    height: 60%;
+}
+#img-palavra{
+    width: 20%;
+    height: 100%;
+}
+#img-palavra img{
+    width: 80%;
+    margin: 15px 0px 0px 15px;
+}
+#palavra-escrita{
+ width: 68%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-right: 15%;
+}
+#palavra{
+    font-size: 25px;
+}
+#div-palavra-inferior{
+    width: 100%;
+    height: 60%;
+    }
+    .tamanho-palavra{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .palavra-do-dia{
+        font-size: 18px;
+        margin-left: 10px;
+    }
 
 
