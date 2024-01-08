@@ -21,3 +21,18 @@ body, html {
     margin: 0 0 0 0;
     font-family: 'Poppins', sans-serif;
 }
+#div-voltar{
+ width: 100%;
+ height: 5vh;
+ display: flex;
+ align-items: center;
+ margin: 2vh;
+}
+#div-voltar a{
+    outline: none;
+}
+#div-voltar h1{
+    font-size: 20px;
+    color: var(--Preto);
+    margin-left: 2vw;
+}
