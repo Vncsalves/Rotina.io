@@ -24,16 +24,145 @@ body, html {
 }
 #div-voltar{
     width: 100%;
-    height: 5vh;
+    height: 4vh;
     display: flex;
     align-items: center;
     margin: 2vh;
    }
 #div-voltar a{
-       outline: none;
+    outline: none;
    }
 #div-voltar h1{
-       font-size: 20px;
-       color: var(--Preto);
-       margin-left: 2vw;
+    font-size: 20px;
+    color: var(--Preto);
+    margin-left: 2vw;
+}
+#centralizar{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div-timer{
+    width: 95%;
+    height: 98%;
+    background-color: var(--Branco);
+    -webkit-box-shadow:0px 0px 14px 0px rgba(49,49,49,0.34);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+     box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#escrita-modo-foco{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#escrita-modo-foco h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#tipos-modo-foco{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-tipos-modo{
+width: 33.33%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.div-tipos-modo h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#timer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bola-timer{
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--Vermelho);
+}
+#bola-timer h1{
+    font-size: 35px;
+    color: var(--Branco);
+}
+#go-next{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#go{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bola-go{
+    width: 4.50vw;
+    height: 4.50vw;
+    border-radius: 50%;
+    background-color: var(--Azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bola-go h1{
+    font-size: 25px;
+    color: var(--Branco);
+}
+#next{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#next img{
+    width: 2vh;
+}
+hr{
+    border-top: 1px solid var(--Cinza_Letras);
+    width: 95%;
+    margin-top: 2vh;
+}
+#bnt-reiniciar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+#bnt-reiniciar button{
+    width: 10%;
+    height: 40%;
+    border-radius: 10px;
+    border-color: var(--Amarelo);
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 2vw;
 }
