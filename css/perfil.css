@@ -129,5 +129,6 @@ justify-content: center;
 #efeitos{
     width: 100%;
     height: 23%;
-    background-color: #1A46CF;
+    background-image: url(../Assets/imgs/effect.svg);
+    background-size: 100%;
 }
