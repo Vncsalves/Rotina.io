@@ -58,11 +58,32 @@ body, html {
 }
 #editar-perfil{
 width: 100%;
-height: 5vh;
+height: 6vh;
 display: flex;
 align-items: center;
 justify-content: end;
 }
 #editar-perfil img{
     width: 2%;
+    margin-right: 3vh;
+}
+#img-perfil{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A46CF;
+}
+#img-usuario{
+    width: 13.50vw;
+    height: 13.50vw;
+    border-radius: 50%;
+    background-image: url(../Assets/imgs/foto-usuario-perfil.svg);
+    background-size: 100%;
+}
+#img-perfil h1{
+font-size: 30px;
+font-weight: bolder;
 }
