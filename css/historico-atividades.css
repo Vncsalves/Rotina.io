@@ -27,7 +27,7 @@ body, html {
  height: 5vh;
  display: flex;
  align-items: center;
- margin: 2vh;
+ margin-left: 2vh
 }
 #div-voltar a{
     outline: none;
@@ -43,13 +43,14 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4vh;
+    gap: 3vh;
 }
 #escrita-historico{
     width: 90%;
     height: 5vh;
     display: flex;
     align-items: center;
+    margin-top: 1vh;
 }
 #escrita-historico h1{
     font-size: 20px;
