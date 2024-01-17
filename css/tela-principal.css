@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -22,7 +22,7 @@ body, html {
     font-family: 'Poppins', sans-serif;
 }
 #nav-bar{
-    margin: 3vh 5px 0px 5px;
+    margin: 1vh 5px 0px 5px;
     width: 99%;
     height: 10%;
     display: flex;
@@ -30,9 +30,10 @@ body, html {
     justify-content: space-between;
 }
 #nav-bar h1{
-color: #1A46CF;
+color: var(--Azul);
 font-size: 20px;
 margin-left: 30px;
+font-weight: bold;
 }
 #nav-bar img{
     width: 40px;
@@ -44,17 +45,17 @@ margin-left: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 1vh;
 }
 #metas-usuario{
     width: 95%;
     height: 100%;
     background-color: var(--Branco);
-    border-radius: 15px;
+    border-radius: 10px;
     /* responsaveis pelo efeito de iluminação */
-    -webkit-box-shadow:0px 0px 14px 0px rgba(49,49,49,0.34);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
-     box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+    -webkit-box-shadow:0px 0px 6px 0px rgba(30,30,30,0.3);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
 }
 #metas-usuario-parte-superior{
     width: 100%;
@@ -409,5 +410,3 @@ footer{
 footer img{
     width: 10%;
 }
-
-

@@ -35,9 +35,9 @@ body, html {
     justify-content: center;
     border-radius: 15px;
     /* responsaveis pelo efeito de iluminação */
-    -webkit-box-shadow:0px 0px 14px 0px rgba(30, 30, 30, 0.445);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(30,30,30,0.445);
-    box-shadow: 0px 0px 14px 0px rgba(30, 30, 30, 0.445);
+    -webkit-box-shadow:0px 0px 6px 0px rgba(30,30,30,0.3);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
 }
 #logo-nome {
     width: 49%;
