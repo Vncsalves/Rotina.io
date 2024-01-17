@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -33,7 +33,7 @@ body, html {
 color: var(--Azul);
 font-size: 20px;
 margin-left: 30px;
-font-weight: bold;
+font-weight: 400;
 }
 #nav-bar img{
     width: 40px;
@@ -63,10 +63,11 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 #metas-usuario-parte-superior h1{
     font-size: 20px;
+    font-weight: bold;
     margin-left: 15px;
 }
 #metas-usuario-parte-superior img{
@@ -86,24 +87,31 @@ font-weight: bold;
 }
 #metas{
     width: 50%;
-    height: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:4vh;
 }
 .metas-checkbox{
-    width: 99%;
-    height: 20%;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    justify-content: start;
 }
 .metas-checkbox h2{
     font-size: 18px;
-    margin-left: 4px;
+    font-weight: 400;
+    margin-left: 0.5vw;
 }
 .metas-checkbox input{
     border-color: var(--Preto);
     border: 2px solid var(--Preto);
     outline: none;
+    margin-left: 1.3vw;
 }
 input:focus{
     color: var(--Preto);
