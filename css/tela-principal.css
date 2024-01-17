@@ -130,10 +130,11 @@ font-weight: 400;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .checkbox:checked + .checkbox-label::before{
     background-image: url('../Assets/imgs/check.png'); 
+    border: 2px solid var(--Amarelo);
 }
 #grafico{
     width: 50%;
