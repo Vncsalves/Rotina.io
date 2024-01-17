@@ -405,45 +405,56 @@ justify-content: space-between;
 #titulo-div-noticia{
 width: 100%;
 height: 10%;
-margin-top: 2vh;
+margin-top: 1vh;
 }
 #titulo-div-noticia h1{
     font-size: 22px;
     margin-left: 5vh;
 }
 #foto-e-manchete{
-    width: 85%;
-    height: 70vh;
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--Branco);
     border-radius: 10px;
-    -webkit-box-shadow:0px 0px 14px 0px rgba(49,49,49,0.34);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
-     box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
+    -webkit-box-shadow:0px 0px 6px 0px rgba(30,30,30,0.3);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     
 }
 #foto{
     width: 100%;
-    height: 75%;
+    height: 50%;
+    margin-top: 1vh;
     background-image: url(../Assets/imgs/foto-manchete.png);
-    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 #manchete{
     width: 100%;
-    height: 15%;
+    height:15%;
+    margin-top: 2vh;
+
 }
 #manchete h1{
-     font-size: 30px;
-     margin: 10px 10px 0px 10px;
+     font-size: 25px;
+     font-weight: 400;
+     margin-left: 1vh;
 }
 #manchete-escrita{
-    width: 85%;
-    height: 100%;
+    width: 100%;
+    height: 30%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 #manchete-escrita h2{
     font-size: 20px;
-    margin: 3vh 10px 0px 10px;
+    font-weight: 300;
 }
 footer{
     background-color: var(--Branco);
@@ -452,7 +463,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 9vh;
+    margin-top: 3vh;
 }
 footer img{
     width: 10%;
