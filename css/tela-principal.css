@@ -32,7 +32,7 @@ body, html {
 #nav-bar h1{
 color: var(--Azul);
 font-size: 20px;
-margin-left: 30px;
+margin-left: 4vh;
 font-weight: 400;
 }
 #nav-bar img{
@@ -149,41 +149,41 @@ font-weight: 400;
 }
 #div-centralizar-cards{
     width: 100%;
-    height: 40%;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7vh;
+    margin-top: 2vh;
 }
 #div-cards{
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #card-historico{
-   width: 18%;
-   height: 40vh;
+   width: 17%;
+   height: 41vh;
    background-color: var(--Azul);
    border-radius: 10px;
 }
 #card-calendario{
-    width: 18%;
-    height: 40vh;
+    width: 17%;
+    height: 41vh;
     background-color: var(--Amarelo);
     border-radius: 10px;
 }
 #card-foco{
-    width: 18%;
-    height: 40vh;
+    width: 17%;
+    height: 41vh;
     background-color: var(--Vermelho);
     border-radius: 10px;
 }
 #card-conquista{
-    width: 18%;
-    height: 40vh;
+    width: 17%;
+    height: 41vh;
     background-color: var(--Roxo);
     border-radius: 10px;
 }
@@ -193,8 +193,10 @@ height: 30%;
 }
 .parte-superior-cards h1{
     font-size: 17px;
+    font-weight: 400;
     color: var(--Branco);
-    margin-left: 5px;
+    margin-top: 1vh;
+    margin-left: 2vh;
 }
 #parte-inferior-cards-historico{
     width: 100%;
@@ -239,7 +241,7 @@ width: 50%;
 #div-relatorio-do-dia{
     width: 100%;
     height: 55%;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 #titulo-relatorio{
     width: 100%;
@@ -247,7 +249,7 @@ width: 50%;
 }
 #titulo-relatorio h1{
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 5vh;
 }
 #cards-relatorio{
     width: 100%;
@@ -257,14 +259,14 @@ width: 50%;
     justify-content: space-around;
 }
 .divs-relatorios{
-    width: 35%;
+    width: 45%;
     height: 50vh;
     background-color: var(--Branco);
     border-radius: 10px;
-    -webkit-box-shadow:0px 0px 14px 0px rgba(49,49,49,0.34);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
-     box-shadow: 0px 0px 14px 0px rgba(49,49,49,0.34);
-     margin-top: 5vh;
+    -webkit-box-shadow:0px 0px 6px 0px rgba(30,30,30,0.3);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     box-shadow: 0px 0px 6px 0px rgba(30,30,30,0.3);
+     margin-top: 2vh;
     
 }
 #div-clima-superior{
