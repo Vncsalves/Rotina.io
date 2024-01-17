@@ -27,8 +27,8 @@ body, html {
 }
 
 #div-login {
-    width: 90%;
-    height: 85%;
+    width: 95%;
+    height: 90%;
     background-color: var(--Branco);
     display: flex;
     align-items: center;
