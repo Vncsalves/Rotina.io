@@ -41,7 +41,7 @@ font-weight: 400;
 }
 #centralizar-metas{
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,8 +91,9 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap:4vh;
+    justify-content: start;
+    margin-top:1vh;
+    gap:3vh;
 }
 .metas-checkbox{
     width: 100%;
@@ -102,19 +103,37 @@ font-weight: 400;
     align-items: center;
     justify-content: start;
 }
-.metas-checkbox h2{
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    margin-left: 2vh;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-left: 2vh;
     font-size: 18px;
-    font-weight: 400;
-    margin-left: 0.5vw;
-}
-.metas-checkbox input{
-    border-color: var(--Preto);
-    border: 2px solid var(--Preto);
-    outline: none;
-    margin-left: 1.3vw;
-}
-input:focus{
     color: var(--Preto);
+    cursor: pointer;
+}
+
+.checkbox-label::before {
+    content: '';
+    display: block;
+    width: 1.2vw;
+    height: 2.5vh;
+    box-sizing: border-box;
+    border: 2px solid var(--Preto);
+    border-radius: 4px;
+    margin-right: 0.5vh;
+    background-color: var(--Branco); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
+}
+.checkbox:checked + .checkbox-label::before{
+    background-image: url('../Assets/imgs/check.png'); 
 }
 #grafico{
     width: 50%;
@@ -124,7 +143,7 @@ input:focus{
 }
 #grafico img{
     width: 40%;
-    height: 85%;
+    height: 77%;
     margin-left: 40%;
 }
 #div-centralizar-cards{
