@@ -27,7 +27,8 @@ body, html {
     height: 4vh;
     display: flex;
     align-items: center;
-    margin: 2vh;
+    margin-left: 1.5vh;
+    margin-top: 1.5vh;
    }
 #div-voltar a{
     outline: none;
